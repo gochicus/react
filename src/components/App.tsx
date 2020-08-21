@@ -4,10 +4,12 @@ import Navigation from "./Navigation";
 import ImageBoard from "./ImageBoard";
 
 function App() {
+    return( <div>
+        <Navigation />
+        <ImageBoard />
+    </div>
+);
 
-    const nav =<Navigation/>;
-    const img = <ImageBoard/>;
-    return nav & img;
 
 }
 
