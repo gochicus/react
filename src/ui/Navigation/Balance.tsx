@@ -1,6 +1,7 @@
 import {Main} from "../theme/Main";
 import styled from "@emotion/styled";
-function Balance(){
+import React from "react";
+export function Balance(){
     return(
         <div>
             <div>
@@ -13,4 +14,4 @@ function Balance(){
         </div>
     )
 }
-export Balance();
+

@@ -1,6 +1,7 @@
 import {Main} from "../theme/Main";
 import styled from "@emotion/styled";
-function MenuButton() {
+import React from "react";
+export function MenuButton() {
     return(
         <div>
             <div></div>
@@ -8,4 +9,4 @@ function MenuButton() {
         </div>
     )
 }
-export MenuButton();
+

@@ -1,6 +1,7 @@
 import {Main} from "../theme/Main";
 import styled from "@emotion/styled";
-function ImgBlock(){
+import React from "react";
+ export function ImgBlock(){
     return(
         <div>
             <div></div>
@@ -10,5 +11,4 @@ function ImgBlock(){
             <div></div>
         </div>
     )
-}
-export ImgBlock();
+

@@ -16,3 +16,4 @@ interface Pagesize {
     ImgBoardElWidth:string,
     ImgBoardElHeight:string
 }
+

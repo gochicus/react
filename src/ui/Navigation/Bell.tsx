@@ -1,10 +1,11 @@
 import {Main} from "../theme/Main";
 import styled from "@emotion/styled";
-function Bell() {
+import React from "react";
+ export function Bell() {
     return(
         <div>
             <img src="" alt=""/>
         </div>
-    )
+    );
 }
-export Bell();
+
