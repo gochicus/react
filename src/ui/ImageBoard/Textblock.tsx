@@ -1,7 +1,8 @@
 import {Main} from "../theme/Main";
 import styled from "@emotion/styled";
 import React from "react";
- export function Textblock(){
+
+ export const Textblock = () =>{
     return(
         <div>
             <div></div>
@@ -12,4 +13,3 @@ import React from "react";
         </div>
     )
 }
-
