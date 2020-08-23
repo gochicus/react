@@ -23,11 +23,7 @@ module.exports = {
         path: path.join(__dirname, "/dist"),
         filename: "index_bundle.js"
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: ".\/src\/index.html"
-        })
-    ]
+
 
 };
 
